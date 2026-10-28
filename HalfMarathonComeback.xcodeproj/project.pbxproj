@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F8CCC757C167DFC2AC20E2F /* PlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FB7CE5CE4A12F365EB4C89 /* PlanTests.swift */; };
+		178A1FBA44B13FB0C70C1559 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B39BAC34516B328EB6E214 /* Model.swift */; };
+		4ED1AEC035E6A4CA284A1960 /* ComebackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD547A3E45CCBB4D5443A8 /* ComebackApp.swift */; };
+		504F87D16DF93E7399D3CCA5 /* IntervalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9AA1B867892482C2F68DA4 /* IntervalView.swift */; };
+		648E2C7269B73E8453FCC4BE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AB6E82390401F21C5DE73F29 /* PrivacyInfo.xcprivacy */; };
+		B0995D95CE50989DF6DB1330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7FF8A804D54280A0D7BDC2 /* Assets.xcassets */; };
+		BF97436CEB85BBF73B4EBFEB /* Training.json in Resources */ = {isa = PBXBuildFile; fileRef = 3CAAE0C2138CFF8C4655BC00 /* Training.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4AD4FFC871514BFF0D5195E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C137B2BB76B26395D44BC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE47D631FFEB8D76B5358D7E;
+			remoteInfo = HalfMarathonComeback;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A9AA1B867892482C2F68DA4 /* IntervalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalView.swift; sourceTree = "<group>"; };
+		3CAAE0C2138CFF8C4655BC00 /* Training.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Training.json; sourceTree = "<group>"; };
+		51B39BAC34516B328EB6E214 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		69B24B3237088A1C74A4E7D9 /* HalfMarathonComeback.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HalfMarathonComeback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFD547A3E45CCBB4D5443A8 /* ComebackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComebackApp.swift; sourceTree = "<group>"; };
+		AB6E82390401F21C5DE73F29 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		C3BCEF460D3CED8B0C1170AE /* HalfMarathonComebackTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HalfMarathonComebackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7FF8A804D54280A0D7BDC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1FB7CE5CE4A12F365EB4C89 /* PlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13120F9F7031B219F760E6CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC7FF8A804D54280A0D7BDC2 /* Assets.xcassets */,
+				AB6E82390401F21C5DE73F29 /* PrivacyInfo.xcprivacy */,
+				3CAAE0C2138CFF8C4655BC00 /* Training.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1FB9F13401EF26CF8C2A3B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69B24B3237088A1C74A4E7D9 /* HalfMarathonComeback.app */,
+				C3BCEF460D3CED8B0C1170AE /* HalfMarathonComebackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A51D4CB7809A2BEB89A962E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E1FB7CE5CE4A12F365EB4C89 /* PlanTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		41A20D99B3E1B2B4F56E0338 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6EFD547A3E45CCBB4D5443A8 /* ComebackApp.swift */,
+				2A9AA1B867892482C2F68DA4 /* IntervalView.swift */,
+				51B39BAC34516B328EB6E214 /* Model.swift */,
+				13120F9F7031B219F760E6CF /* Resources */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5CD048A6173B3CEF8F86BFCB = {
+			isa = PBXGroup;
+			children = (
+				41A20D99B3E1B2B4F56E0338 /* Sources */,
+				3A51D4CB7809A2BEB89A962E /* Tests */,
+				1FB9F13401EF26CF8C2A3B63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE47D631FFEB8D76B5358D7E /* HalfMarathonComeback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D3C4B354BB1E9CAA8C720A /* Build configuration list for PBXNativeTarget "HalfMarathonComeback" */;
+			buildPhases = (
+				B93299D3637DB691261B65B8 /* Sources */,
+				4E2BA61F4CA48EBF5B98C705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HalfMarathonComeback;
+			packageProductDependencies = (
+			);
+			productName = HalfMarathonComeback;
+			productReference = 69B24B3237088A1C74A4E7D9 /* HalfMarathonComeback.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7CC7AC178452CD3BA4C7EC3 /* HalfMarathonComebackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1307973BA3FF0A83E7F018B8 /* Build configuration list for PBXNativeTarget "HalfMarathonComebackTests" */;
+			buildPhases = (
+				8255AA5CA7BF3D334DBF36F2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E87433E88F50AFBA39DB322 /* PBXTargetDependency */,
+			);
+			name = HalfMarathonComebackTests;
+			packageProductDependencies = (
+			);
+			productName = HalfMarathonComebackTests;
+			productReference = C3BCEF460D3CED8B0C1170AE /* HalfMarathonComebackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C137B2BB76B26395D44BC9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BE47D631FFEB8D76B5358D7E = {
+						ProvisioningStyle = Automatic;
+					};
+					C7CC7AC178452CD3BA4C7EC3 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04675B8B92B2FA9508B27A9F /* Build configuration list for PBXProject "HalfMarathonComeback" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5CD048A6173B3CEF8F86BFCB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1FB9F13401EF26CF8C2A3B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE47D631FFEB8D76B5358D7E /* HalfMarathonComeback */,
+				C7CC7AC178452CD3BA4C7EC3 /* HalfMarathonComebackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E2BA61F4CA48EBF5B98C705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0995D95CE50989DF6DB1330 /* Assets.xcassets in Resources */,
+				648E2C7269B73E8453FCC4BE /* PrivacyInfo.xcprivacy in Resources */,
+				BF97436CEB85BBF73B4EBFEB /* Training.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8255AA5CA7BF3D334DBF36F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8CCC757C167DFC2AC20E2F /* PlanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93299D3637DB691261B65B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED1AEC035E6A4CA284A1960 /* ComebackApp.swift in Sources */,
+				504F87D16DF93E7399D3CCA5 /* IntervalView.swift in Sources */,
+				178A1FBA44B13FB0C70C1559 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E87433E88F50AFBA39DB322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE47D631FFEB8D76B5358D7E /* HalfMarathonComeback */;
+			targetProxy = B4AD4FFC871514BFF0D5195E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EADF9DFB35A5EDF5AFD3A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanhayden.HalfMarathonComebackTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HalfMarathonComeback.app/HalfMarathonComeback";
+			};
+			name = Debug;
+		};
+		1EF6EFE75B2CE5D42CBD07DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Comeback;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		470348238A543F292E6DC8D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Comeback;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CD8F0B360CEDA38419D4813E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanhayden.HalfMarathonComebackTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HalfMarathonComeback.app/HalfMarathonComeback";
+			};
+			name = Release;
+		};
+		DB062349A42C4835F47BDD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanhayden.halfmarathoncomeback;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F313700097F9B733556B125C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanhayden.halfmarathoncomeback;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04675B8B92B2FA9508B27A9F /* Build configuration list for PBXProject "HalfMarathonComeback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF6EFE75B2CE5D42CBD07DD /* Debug */,
+				470348238A543F292E6DC8D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1307973BA3FF0A83E7F018B8 /* Build configuration list for PBXNativeTarget "HalfMarathonComebackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EADF9DFB35A5EDF5AFD3A3B /* Debug */,
+				CD8F0B360CEDA38419D4813E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		91D3C4B354BB1E9CAA8C720A /* Build configuration list for PBXNativeTarget "HalfMarathonComeback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F313700097F9B733556B125C /* Debug */,
+				DB062349A42C4835F47BDD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C137B2BB76B26395D44BC9C /* Project object */;
+}

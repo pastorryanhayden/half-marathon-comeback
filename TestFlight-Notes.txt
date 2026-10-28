@@ -1,0 +1,18 @@
+Comeback 1.0 (1)
+
+Personal half-marathon comeback planner for the Christie Clinic Illinois Half Marathon on April 24, 2027. Includes a dated 26-week run/walk schedule, two strength workouts, local progress tracking, JSON backup import/export and a foreground interval timer.
+
+What to test:
+- Change weeks, mark a session, add a note, close/reopen the app and confirm persistence.
+- Read workout A and B and check that all exercise instructions are accessible.
+- Export a progress backup, import it and verify records match.
+- Import a JSON progress backup exported by the Spaces training app.
+- Start, pause and reset the timer. Check sound/haptics on a physical iPhone. Leaving the app or timer screen pauses it.
+- Check text at larger accessibility sizes and in light/dark appearance.
+
+Known limits:
+- No automatic cross-device or Spaces synchronization.
+- No timer alerts while backgrounded or locked; timer pauses.
+- The 2:10 finish is an aspiration, not a guaranteed result.
+
+No login is required inside the app. Progress is stored locally. No analytics or advertising SDKs are included.

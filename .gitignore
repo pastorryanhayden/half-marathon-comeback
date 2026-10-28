@@ -1,0 +1,5 @@
+Build/
+*.xcarchive/
+*.ipa
+xcuserdata/
+.DS_Store
