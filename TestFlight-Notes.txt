@@ -1,18 +1,28 @@
-Comeback 1.0 (1)
+Comeback 1.2 (6)
 
-Personal half-marathon comeback planner for the Christie Clinic Illinois Half Marathon on April 24, 2027. Includes a dated 26-week run/walk schedule, two strength workouts, local progress tracking, JSON backup import/export and a foreground interval timer.
+GPS distance, active average pace, route maps, and saved run history are now available from the Timer. Start from a workout in the plan to associate your run with it. Finish & save stores the route and marks the workout complete.
+
+Spoken mile splits can be enabled or disabled independently of interval tones. Both run and walk intervals count toward distance; pauses exclude movement and time. Reset restarts the interval clock and preserves your run.
+
+Siri and Shortcuts support start, pause, resume, finish/save, run status, next interval, and mile announcements. Shortcuts also exposes interval settings. Try “Hey Siri, pause Comeback” or “Hey Siri, start my next run on Comeback with a timer.”
+
+Running Focus setup is available under Timer → Hands free. Create the Comeback Focus shortcut as instructed to silence notifications while allowing your chosen callers. Focus settings and contacts must be configured on your iPhone.
 
 What to test:
-- Change weeks, mark a session, add a note, close/reopen the app and confirm persistence.
-- Read workout A and B and check that all exercise instructions are accessible.
-- Export a progress backup, import it and verify records match.
-- Import a JSON progress backup exported by the Spaces training app.
-- Start, pause and reset the timer. Check sound/haptics on a physical iPhone. Leaving the app or timer screen pauses it.
-- Check text at larger accessibility sizes and in light/dark appearance.
+- Update through TestFlight without uninstalling; existing plan progress should remain.
+- Allow Precise Location, start music, then start a run and lock the phone. Compare distance and the saved route with a known outdoor route.
+- Verify one spoken announcement at each mile, interval tones, countdown beeps, and music mixing.
+- Pause, move, and resume. Paused movement/time must be excluded, with a gap in the route.
+- Finish and save. Reopen the app and inspect the map and splits under Timer → Your runs.
+- Test Siri start/pause/resume/status/next/finish/mute with the phone locked and music playing.
+- Test an incoming call and disconnected headphones. Explicit pause must stay paused; temporary interruptions resume when iOS permits.
+- Set up Focus shortcuts. Chosen callers should ring; other calls and texts should stay silenced. Turn Focus off after finishing.
+- Recheck strength illustrations, dark appearance, larger text, and plan backup import/export.
 
 Known limits:
-- No automatic cross-device or Spaces synchronization.
-- No timer alerts while backgrounded or locked; timer pauses.
-- The 2:10 finish is an aspiration, not a guaranteed result.
-
-No login is required inside the app. Progress is stored locally. No analytics or advertising SDKs are included.
+- GPS signal and permission affect accuracy. Missing GPS segments cannot be reconstructed.
+- Run history and routes are stored locally and are separate from the plan JSON backup.
+- Force-quitting stops playback and recording; reopening recovers the last checkpoint paused. Resume starts a new interval cycle.
+- Siri may require unlocking. Headset/media controls depend on which app owns Now Playing.
+- Focus cannot be switched directly by Comeback; the optional start shortcut requires one-time user setup.
+- No cross-device synchronization, login, analytics, or advertising SDKs.

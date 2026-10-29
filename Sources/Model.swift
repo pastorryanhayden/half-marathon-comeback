@@ -5,7 +5,13 @@ import UniformTypeIdentifiers
 // Use the stable property-wrapper type across Xcode SDK versions.
 typealias ViewState<Value> = SwiftUI.State<Value>
 
-struct Exercise: Codable, Identifiable { var id: String { title }; let title: String; let instructions: String }
+struct Exercise: Codable, Identifiable {
+    var id: String { title }
+    let title: String
+    let instructions: String
+    let illustration: String
+    let illustrationDescription: String
+}
 struct Workout: Codable, Identifiable { var id: String { title }; let title: String; let exercises: [Exercise] }
 struct GuideItem: Codable, Identifiable { var id: String { title }; let title: String; let body: String }
 struct TrainingContent: Codable {
@@ -47,6 +53,7 @@ struct ProgressData: Codable {
     }
 }
 @MainActor final class ProgressStore: ObservableObject {
+    static let shared = ProgressStore()
     @Published var data = ProgressData()
     @Published var error: String?
     private let url: URL

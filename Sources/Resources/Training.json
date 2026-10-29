@@ -1,85 +1,107 @@
 {
   "workouts": [
     {
-      "title": "Workout A \u00b7 Monday",
+      "title": "Workout A · Monday",
       "exercises": [
         {
-          "title": "1. Squat \u00b7 6\u20138 reps",
-          "instructions": "Start with a bodyweight squat: feet about shoulder-width, sit your hips back and down, keep heels planted, then stand. Knees follow the direction of your toes. Stop at a comfortable depth.\n\nWith a bell: hold it close to your chest with both hands for a goblet squat. Easier: sit down and stand up from a sturdy chair or fixed bench, if available. Do not use a rolling chair."
+          "title": "1. Squat · 6–8 reps",
+          "instructions": "Start with a bodyweight squat: feet about shoulder-width, sit your hips back and down, keep heels planted, then stand. Knees follow the direction of your toes. Stop at a comfortable depth.\n\nWith a bell: hold it close to your chest with both hands for a goblet squat. Easier: sit down and stand up from a sturdy chair or fixed bench, if available. Do not use a rolling chair.",
+          "illustration": "exercise-squat",
+          "illustrationDescription": "Stand tall, then sit your hips back into a comfortable squat with heels flat."
         },
         {
-          "title": "2. Kettlebell deadlift \u00b7 8\u201310 reps",
-          "instructions": "Place the bell between your feet. Soften your knees and push your hips back to reach the handle with both hands. Keep your back in its natural position and arms long. Push through your feet to stand tall; lower slowly by moving the hips back again. Do not lean backward at the top.\n\nEasier: practice the hinge without a bell, reaching your hips toward a wall behind you. If reaching the floor makes your back round, use this version until the movement is comfortable."
+          "title": "2. Kettlebell deadlift · 8–10 reps",
+          "instructions": "Place the bell between your feet. Soften your knees and push your hips back to reach the handle with both hands. Keep your back in its natural position and arms long. Push through your feet to stand tall; lower slowly by moving the hips back again. Do not lean backward at the top.\n\nEasier: practice the hinge without a bell, reaching your hips toward a wall behind you. If reaching the floor makes your back round, use this version until the movement is comfortable.",
+          "illustration": "exercise-deadlift",
+          "illustrationDescription": "Hinge at the hips with both hands on one kettlebell, then stand tall with arms long."
         },
         {
-          "title": "3. Wall push-up \u00b7 6\u201310 reps",
-          "instructions": "Put hands on a wall at chest height, slightly wider than shoulders. Walk feet back, keep your body in a straight line, bend elbows to bring your chest toward the wall, then press away. Keep elbows angled back rather than flared straight out.\n\nEasier: move feet closer to the wall. Harder: move them farther back, or use a sturdy fixed bench for incline push-ups."
+          "title": "3. Wall push-up · 6–10 reps",
+          "instructions": "Put hands on a wall at chest height, slightly wider than shoulders. Walk feet back, keep your body in a straight line, bend elbows to bring your chest toward the wall, then press away. Keep elbows angled back rather than flared straight out.\n\nEasier: move feet closer to the wall. Harder: move them farther back, or use a sturdy fixed bench for incline push-ups.",
+          "illustration": "exercise-wall-pushup",
+          "illustrationDescription": "With hands on a wall and body straight, bend your elbows toward the wall and press away."
         },
         {
-          "title": "4. One-arm kettlebell row \u00b7 8 reps each side",
-          "instructions": "Use a staggered stance with the bell beside your front foot. Hinge forward and support your free forearm on your front thigh. Keep your back steady; pull the bell toward your hip, then lower slowly. Keep shoulders level and avoid twisting.\n\nUse the lightest bell. If it is too heavy to move smoothly, leave this exercise out until you have a suitable weight."
+          "title": "4. One-arm kettlebell row · 8 reps each side",
+          "instructions": "Use a staggered stance with the bell beside your front foot. Hinge forward and support your free forearm on your front thigh. Keep your back steady; pull the bell toward your hip, then lower slowly. Keep shoulders level and avoid twisting.\n\nUse the lightest bell. If it is too heavy to move smoothly, leave this exercise out until you have a suitable weight.",
+          "illustration": "exercise-row",
+          "illustrationDescription": "Support yourself on the front thigh, then pull the kettlebell toward your hip without twisting."
         },
         {
-          "title": "5. Calf raise \u00b7 10\u201312 reps",
-          "instructions": "Stand on flat ground beside a wall for balance. Rise onto the balls of both feet, pause briefly, then lower slowly. Keep your ankles upright and the movement comfortable. Start without a bell."
+          "title": "5. Calf raise · 10–12 reps",
+          "instructions": "Stand on flat ground beside a wall for balance. Rise onto the balls of both feet, pause briefly, then lower slowly. Keep your ankles upright and the movement comfortable. Start without a bell.",
+          "illustration": "exercise-calf-raise",
+          "illustrationDescription": "Use a wall for balance, lift both heels, then lower slowly with straight knees."
         },
         {
-          "title": "6. Suitcase carry \u00b7 20\u201330 seconds each side",
-          "instructions": "Hold one bell at your side like a suitcase. Stand tall, keep shoulders level, and walk slowly down a clear section of court. Turn carefully, set the bell down with a hip hinge, then change hands. Do not lean away from the weight.\n\nEasier: hold it while standing still for 10\u201320 seconds, or use a lighter bell."
+          "title": "6. Suitcase carry · 20–30 seconds each side",
+          "instructions": "Hold one bell at your side like a suitcase. Stand tall, keep shoulders level, and walk slowly down a clear section of court. Turn carefully, set the bell down with a hip hinge, then change hands. Do not lean away from the weight.\n\nEasier: hold it while standing still for 10–20 seconds, or use a lighter bell.",
+          "illustration": "exercise-suitcase-carry",
+          "illustrationDescription": "Carry one kettlebell beside your body while walking tall with level shoulders."
         }
       ]
     },
     {
-      "title": "Workout B \u00b7 Friday",
+      "title": "Workout B · Friday",
       "exercises": [
         {
-          "title": "1. Glute bridge \u00b7 8\u201310 reps",
-          "instructions": "Lie on your back, knees bent, feet flat about hip-width apart. Gently tighten your stomach and squeeze your glutes to lift your hips until shoulders, hips, and knees form a line. Lower slowly. Avoid arching your lower back; keep this bodyweight-only."
+          "title": "1. Glute bridge · 8–10 reps",
+          "instructions": "Lie on your back, knees bent, feet flat about hip-width apart. Gently tighten your stomach and squeeze your glutes to lift your hips until shoulders, hips, and knees form a line. Lower slowly. Avoid arching your lower back; keep this bodyweight-only.",
+          "illustration": "exercise-glute-bridge",
+          "illustrationDescription": "Lie with feet flat and knees bent, then lift hips while keeping shoulders on the floor."
         },
         {
-          "title": "2. Supported split squat \u00b7 5\u20136 reps each side",
-          "instructions": "Hold a wall for balance. Take a short staggered stance, both feet on the floor. Bend both knees to lower a few inches, then push up. Keep your front heel down and hips facing forward. Use a small comfortable range.\n\nEasier: substitute 6 bodyweight squats from workout A. Keep split squats unweighted to start; if they leave you sore for Saturday, use squats or skip them that week."
+          "title": "2. Supported split squat · 5–6 reps each side",
+          "instructions": "Hold a wall for balance. Take a short staggered stance, both feet on the floor. Bend both knees to lower a few inches, then push up. Keep your front heel down and hips facing forward. Use a small comfortable range.\n\nEasier: substitute 6 bodyweight squats from workout A. Keep split squats unweighted to start; if they leave you sore for Saturday, use squats or skip them that week.",
+          "illustration": "exercise-split-squat",
+          "illustrationDescription": "Hold a wall in a staggered stance, then lower a few inches with the front heel planted."
         },
         {
-          "title": "3. Wall push-up \u00b7 6\u20138 reps",
-          "instructions": "Use the same technique as Monday, with an easy foot position. Stop well before your arms tire out."
+          "title": "3. Wall push-up · 6–8 reps",
+          "instructions": "Use the same technique as Monday, with an easy foot position. Stop well before your arms tire out.",
+          "illustration": "exercise-wall-pushup",
+          "illustrationDescription": "With hands on a wall and body straight, bend your elbows toward the wall and press away."
         },
         {
-          "title": "4. Calf raise \u00b7 8\u201310 reps",
-          "instructions": "Use both feet on flat ground, with a wall for balance. Rise and lower slowly. Keep this lighter than Monday."
+          "title": "4. Calf raise · 8–10 reps",
+          "instructions": "Use both feet on flat ground, with a wall for balance. Rise and lower slowly. Keep this lighter than Monday.",
+          "illustration": "exercise-calf-raise",
+          "illustrationDescription": "Use a wall for balance, lift both heels, then lower slowly with straight knees."
         },
         {
-          "title": "5. Bird dog \u00b7 5 reps each side",
-          "instructions": "On hands and knees, gently brace your stomach. Slowly reach one arm forward and the opposite leg back, keeping hips level and back still. Hold 2\u20133 seconds, then return and switch sides.\n\nEasier: move just one arm or one leg at a time. Use a folded towel or mat under your knees if needed."
+          "title": "5. Bird dog · 5 reps each side",
+          "instructions": "On hands and knees, gently brace your stomach. Slowly reach one arm forward and the opposite leg back, keeping hips level and back still. Hold 2–3 seconds, then return and switch sides.\n\nEasier: move just one arm or one leg at a time. Use a folded towel or mat under your knees if needed.",
+          "illustration": "exercise-bird-dog",
+          "illustrationDescription": "From hands and knees, reach one arm forward and the opposite leg back while keeping hips level."
         }
       ]
     }
   ],
-  "progression": "Weeks 1\u20132: one easy set per exercise. Weeks 3\u20134: add a second set to Monday's exercises if soreness settles within 24\u201348 hours and runs feel normal. Friday stays at one set initially. From week 5: maintain two sets Monday and one or two easy sets Friday, depending on recovery.\n\nReach the top of the rep range comfortably for two sessions before increasing weight. Increase only one thing at a time: reps, sets, or weight. With a heavier bell, return to the low end of the rep range. If the next bell is too heavy, keep your current bell; you do not need to keep adding load.\n\nProtect the long run: if Friday makes Saturday harder, move workout B to Wednesday, halve its sets, or skip its leg exercises that week. On cutback weeks, halve Monday's sets too. During the final two weeks, keep strength easy; in race week, follow the short mobility and activation sessions on the weekly checklist instead of workouts A and B.\n\nUse the court for easy walking and carries. Basketball games, sprints, jumps, and hard cutting drills add leg fatigue; they are extra training, not recovery. Keep them out of these strength sessions. Swings, cleans, and snatches are unnecessary for this plan.\n\nMuscle effort and mild next-day soreness can happen. Stop an exercise for sharp or joint pain, dizziness, or loss of control. If soreness changes how you run or lasts more than 48 hours, reduce the next session.",
+  "progression": "Weeks 1–2: one easy set per exercise. Weeks 3–4: add a second set to Monday's exercises if soreness settles within 24–48 hours and runs feel normal. Friday stays at one set initially. From week 5: maintain two sets Monday and one or two easy sets Friday, depending on recovery.\n\nReach the top of the rep range comfortably for two sessions before increasing weight. Increase only one thing at a time: reps, sets, or weight. With a heavier bell, return to the low end of the rep range. If the next bell is too heavy, keep your current bell; you do not need to keep adding load.\n\nProtect the long run: if Friday makes Saturday harder, move workout B to Wednesday, halve its sets, or skip its leg exercises that week. On cutback weeks, halve Monday's sets too. During the final two weeks, keep strength easy; in race week, follow the short mobility and activation sessions on the weekly checklist instead of workouts A and B.\n\nUse the court for easy walking and carries. Basketball games, sprints, jumps, and hard cutting drills add leg fatigue; they are extra training, not recovery. Keep them out of these strength sessions. Swings, cleans, and snatches are unnecessary for this plan.\n\nMuscle effort and mild next-day soreness can happen. Stop an exercise for sharp or joint pain, dizziness, or loss of control. If soreness changes how you run or lasts more than 48 hours, reduce the next session.",
   "guide": [
     {
       "title": "Your normal week",
-      "body": "Monday: 20\u201330 minutes strength. Tuesday: easy run/walk. Wednesday: rest or relaxed walking. Thursday: run/walk. Friday: 15\u201325 minutes light strength. Saturday: easy long run/walk. Sunday: rest.\n\nOpen the Strength workouts tab for Monday's workout A and Friday's lighter workout B, using your kettlebells, a wall, and court space. Start with one easy set. Move Friday strength to Wednesday if needed."
+      "body": "Monday: 20–30 minutes strength. Tuesday: easy run/walk. Wednesday: rest or relaxed walking. Thursday: run/walk. Friday: 15–25 minutes light strength. Saturday: easy long run/walk. Sunday: rest.\n\nOpen the Strength workouts tab for Monday's workout A and Friday's lighter workout B, using your kettlebells, a wall, and court space. Start with one easy set. Move Friday strength to Wednesday if needed."
     },
     {
       "title": "Time commitment by phase",
-      "body": "Weeks 1\u20134: about 2\u20133 hours/week. Weeks 5\u20138: 2.5\u20133.5 hours. Weeks 9\u201314: 3\u20134.5 hours. Weeks 15\u201323: 3.5\u20135 hours; the 12 mile peak may take 2.5\u20133 hours by itself. Weeks 24\u201326: taper, about 2\u20133.5 hours including race week. Add travel, changing and showering separately."
+      "body": "Weeks 1–4: about 2–3 hours/week. Weeks 5–8: 2.5–3.5 hours. Weeks 9–14: 3–4.5 hours. Weeks 15–23: 3.5–5 hours; the 12 mile peak may take 2.5–3 hours by itself. Weeks 24–26: taper, about 2–3.5 hours including race week. Add travel, changing and showering separately."
     },
     {
       "title": "When to adjust",
-      "body": "Repeat a week when recovery is poor, effort rises, or the next step feels too large. Reduce a long run by 20\u201330% or replace it with walking when needed. If you miss a week, return to the last comfortable week; after a longer gap, step back further. Never stack missed sessions.\n\nStop if pain changes your gait or worsens while running. Persistent pain needs assessment before progression. Chest pain, fainting or unusual severe breathlessness require prompt medical care. Heat, ice, illness and poor sleep are reasons to slow down or shorten the session."
+      "body": "Repeat a week when recovery is poor, effort rises, or the next step feels too large. Reduce a long run by 20–30% or replace it with walking when needed. If you miss a week, return to the last comfortable week; after a longer gap, step back further. Never stack missed sessions.\n\nStop if pain changes your gait or worsens while running. Persistent pain needs assessment before progression. Chest pain, fainting or unusual severe breathlessness require prompt medical care. Heat, ice, illness and poor sleep are reasons to slow down or shorten the session."
     },
     {
       "title": "Goal pace without forcing it",
-      "body": "2:10 for 13.1 miles means about 9:55 per mile including every walk break and stop. Running segments must be faster than this average. Do not use goal pace for easy runs.\n\nFrom week 15, if recovering well, try 3 \u00d7 5 minutes of controlled, goal-average run/walk effort within Thursday's session, with 3 easy minutes between. Keep the rest easy; skip this during cutback weeks. Extend to 2 \u00d7 10 minutes only when comfortable. Finish healthy is the primary goal; keep 2:10 only if training supports it."
+      "body": "2:10 for 13.1 miles means about 9:55 per mile including every walk break and stop. Running segments must be faster than this average. Do not use goal pace for easy runs.\n\nFrom week 15, if recovering well, try 3 × 5 minutes of controlled, goal-average run/walk effort within Thursday's session, with 3 easy minutes between. Keep the rest easy; skip this during cutback weeks. Extend to 2 × 10 minutes only when comfortable. Finish healthy is the primary goal; keep 2:10 only if training supports it."
     },
     {
       "title": "Long runs, fueling and race day",
-      "body": "For runs longer than 75\u201390 minutes, practice small, regular carbohydrate portions and drinking to thirst. Use products and amounts your stomach tolerates; test them before race day. Practice your shoes, socks and walk ratio.\n\nUse your practiced ratio from the start of the race. Keep the first 3 miles restrained, settle through mile 10, then decide whether you have more. Choose a comfortable finish over chasing the clock when conditions or readiness disagree. Reduce strength loads in the taper and skip heavy strength in race week."
+      "body": "For runs longer than 75–90 minutes, practice small, regular carbohydrate portions and drinking to thirst. Use products and amounts your stomach tolerates; test them before race day. Practice your shoes, socks and walk ratio.\n\nUse your practiced ratio from the start of the race. Keep the first 3 miles restrained, settle through mile 10, then decide whether you have more. Choose a comfortable finish over chasing the clock when conditions or readiness disagree. Reduce strength loads in the taper and skip heavy strength in race week."
     },
     {
       "title": "Plan notes and sources",
-      "body": "This is a reconstructed, Galloway-inspired comeback plan, not an official Jeff Galloway schedule or a verbatim recovery of the earlier chat. Starting context: 43, returning after a long break, recent hard 2.5 mile run. Dates run from October 26, 2026 through race week April 19\u201325, 2027.\n\nJeff Galloway: Run Walk Run \u00b7 Half marathon training"
+      "body": "This is a reconstructed, Galloway-inspired comeback plan, not an official Jeff Galloway schedule or a verbatim recovery of the earlier chat. Starting context: 43, returning after a long break, recent hard 2.5 mile run. Dates run from October 26, 2026 through race week April 19–25, 2027.\n\nJeff Galloway: Run Walk Run · Half marathon training"
     }
   ]
 }
