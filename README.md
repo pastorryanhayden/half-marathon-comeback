@@ -41,9 +41,9 @@ The bundle identifier is `com.ryanhayden.halfmarathoncomeback`. Automatic signin
 
 App Store Connect record: [Half Marathon Comeback](https://appstoreconnect.apple.com/apps/6828147901/distribution), SKU `comeback-ios-2027`, English (U.S.).
 
-Build 1.1 (5) was uploaded for **internal testing only**. The internal group **Ryan** includes Ryan's App Store Connect account and has automatic distribution enabled. After Apple finishes processing, open TestFlight and update the installed app. Updating preserves local progress; do not uninstall.
+Build 1.2 (6) was uploaded on October 29, 2026 for **internal testing only**. The internal group **Ryan** includes Ryan's App Store Connect account and has automatic distribution enabled. After Apple finishes processing, open TestFlight and update the installed app. Updating preserves local progress; do not uninstall.
 
-Check layout, checklist persistence, backup import/export, strength instructions, and timer sound/haptics on the iPhone. See `TestFlight-Notes.txt` for the current testing checklist. The redesigned update is version 1.1 (5).
+Check layout, checklist persistence, backup import/export, strength instructions, and timer sound/haptics on the iPhone. See `TestFlight-Notes.txt` for the current testing checklist. The current update is version 1.2 (6), including GPS run recording and Siri controls.
 
 For future builds, increase `CURRENT_PROJECT_VERSION` in both `project.yml` and the Xcode project, archive for a generic iOS device, then use Organizer > Distribute App > TestFlight Internal Only. Use standard App Store Connect distribution if external testing is needed; internal-only builds cannot be shared with external groups.
 
@@ -80,4 +80,4 @@ Physical-device acceptance checks for TestFlight:
 
 ## Release 1.2 (6)
 
-GPS routes, distance/pace, spoken mile splits, Siri/App Shortcuts, and running Focus setup. All 10 simulator tests passed. Prepared for internal TestFlight distribution; physical-device checks above remain to be completed.
+GPS routes, distance/pace, spoken mile splits, Siri/App Shortcuts, and running Focus setup. All 10 simulator tests passed. Signed and uploaded successfully to App Store Connect for internal TestFlight testing on October 29, 2026. Apple reported that the uploaded package is processing. The archive is saved at `~/Library/Developer/Xcode/Archives/2026-10-29/Comeback-1.2-6.xcarchive`. Physical-device checks above remain to be completed.
